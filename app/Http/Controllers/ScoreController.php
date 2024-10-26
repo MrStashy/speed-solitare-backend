@@ -19,7 +19,7 @@ class ScoreController extends Controller
         return response()->json($topScores->map(function ($score) {
             return [
                 'username' => $score->user->username, 
-                'score' => $score->final_score
+                'finalScore' => $score->final_score
             ];
         }));
     }
