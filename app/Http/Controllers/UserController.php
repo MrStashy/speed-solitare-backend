@@ -23,7 +23,7 @@ class UserController extends Controller
     public function postUserAndScore(Request $request): JsonResponse {
         $validator = Validator::make($request->all(), [
             'username' => 'required|string',
-            'finalScore' => 'required|number',
+            'finalScore' => 'required|int',
         ]);
     
         if ($validator->fails()) {
