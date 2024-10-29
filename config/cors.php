@@ -19,7 +19,7 @@ return [
 
     'allowed_methods' => ['GET', 'POST', 'OPTIONS'],
 
-    'allowed_origins' => ['http://localhost:5173', 'https://competitive-solitaire-production.up.railway.app/'],
+    'allowed_origins' => ['http://localhost:5173', 'https://competitive-solitaire-production.up.railway.app'],
 
     'allowed_origins_patterns' => [],
 
